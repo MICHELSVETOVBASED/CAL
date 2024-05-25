@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\img\\11.jpg",
+      "PackagePath": "staticwebassets\\img\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\img\\22.jpg",
+      "PackagePath": "staticwebassets\\img\\22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\img\\33.jpg",
+      "PackagePath": "staticwebassets\\img\\33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\img\\44.jpg",
+      "PackagePath": "staticwebassets\\img\\44.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\img\\55.jpg",
+      "PackagePath": "staticwebassets\\img\\55.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CalTechnology.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CalTechnology.props",
+      "PackagePath": "build\\CalTechnology.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CalTechnology.props",
+      "PackagePath": "buildMultiTargeting\\CalTechnology.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CalTechnology.props",
+      "PackagePath": "buildTransitive\\CalTechnology.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
