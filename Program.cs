@@ -3,11 +3,11 @@ using CalTechnology.Data.Interfaces;
 using CalTechnology.Data;
 using Microsoft.EntityFrameworkCore;
 using CalTechnology.Data.Repository;
-using System.ComponentModel;
+
 using CalTechnology.Data.Models;
 
-/*using Microsoft.Extensions.DependencyInjection;
-using CalTechnology.Data.mocks;*/
+using Microsoft.Extensions.DependencyInjection;
+using CalTechnology.Data.mocks;
 
 
 
@@ -55,22 +55,13 @@ using (var scope = app.Services.CreateScope()){
 }
 
 
-
-
-
-
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllerRoute(
-        name: "Cars",
-        pattern: "cars/{action=Index}/{id?}",
-        defaults: new { controller = "Cars" });
-    endpoints.MapControllerRoute(
-        name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}");
-});
-
-
+app.MapControllerRoute(
+    name: "Cars",
+    pattern: "cars/{action=Index}/{id?}",
+    defaults: new { controller = "Cars" });
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
         
 
 

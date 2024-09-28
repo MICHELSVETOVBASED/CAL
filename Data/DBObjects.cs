@@ -8,7 +8,7 @@ namespace CalTechnology.Data;
 public class DBObjects{
     public static void Initial(AppDBContent content){
         if (!content.Category.Any())
-            content.Category.AddRange(Categories.Select(c => c.Value));
+             content.Category.AddRange(Categories.Select(c => c.Value));
         if (!content.Car.Any()){
             content.AddRange(
                 new Car{

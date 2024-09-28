@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oIHmi9ekehyDFrUXixmyAdkE16GW7UIBxxWdaqSLTsX3aajvGl0CR8rrUwSqGGuUQnDTBcdesis7WV6WPD49Tg==",
+  "dgSpecHash": "8g/TxYUZHJb3ZW/rP6cmBC3lIWLj7zAgo+bFv7wdzZe0yOds5A+dLMTMTNv0cCksc9N2/1RNV47o4f8ug5ncuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\CalTechnology.csproj",
+  "projectFilePath": "C:\\Users\\maksk\\RiderProjects\\CAL\\CalTechnology.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maksk\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\maksk\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

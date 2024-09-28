@@ -17,39 +17,39 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CalTechnology
 build_property.RootNamespace = CalTechnology
-build_property.ProjectDir = C:\Users\maksk\RiderProjects\CalTechnology\CalTechnology\
+build_property.ProjectDir = C:\Users\maksk\RiderProjects\CAL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\maksk\RiderProjects\CalTechnology\CalTechnology
+build_property.MSBuildProjectDirectory = C:\Users\maksk\RiderProjects\CAL
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/maksk/RiderProjects/CalTechnology/CalTechnology/Views/Cars/List.cshtml]
+[C:/Users/maksk/RiderProjects/CAL/Views/Cars/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maksk/RiderProjects/CalTechnology/CalTechnology/Views/Home/Index.cshtml]
+[C:/Users/maksk/RiderProjects/CAL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maksk/RiderProjects/CalTechnology/CalTechnology/Views/Shared/AllCars.cshtml]
+[C:/Users/maksk/RiderProjects/CAL/Views/Shared/AllCars.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFsbENhcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maksk/RiderProjects/CalTechnology/CalTechnology/Views/Shared/_Layout.cshtml]
+[C:/Users/maksk/RiderProjects/CAL/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maksk/RiderProjects/CalTechnology/CalTechnology/Views/ShopCart/Index.cshtml]
+[C:/Users/maksk/RiderProjects/CAL/Views/ShopCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcENhcnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maksk/RiderProjects/CalTechnology/CalTechnology/Views/_ViewImports.cshtml]
+[C:/Users/maksk/RiderProjects/CAL/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maksk/RiderProjects/CalTechnology/CalTechnology/Views/_ViewStart.cshtml]
+[C:/Users/maksk/RiderProjects/CAL/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

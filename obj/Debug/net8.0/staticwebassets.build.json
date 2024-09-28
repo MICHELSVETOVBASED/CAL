@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8bGf5tU1t57jA+BAVQMfr0Vo/6Mo724BEPeTIdCRXQw=",
+  "Hash": "1ofB1BCX49qj7yY5E3ofa73EkBckqDFrQjev9vCchUg=",
   "Source": "CalTechnology",
   "BasePath": "_content/CalTechnology",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CalTechnology\\wwwroot",
       "Source": "CalTechnology",
-      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\",
       "BasePath": "_content/CalTechnology",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "CalTechnology",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\",
       "BasePath": "_content/CalTechnology",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\css\\style.css",
       "SourceId": "CalTechnology",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\",
       "BasePath": "_content/CalTechnology",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\img\\11.jpg",
+      "Identity": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\img\\11.jpg",
       "SourceId": "CalTechnology",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\",
       "BasePath": "_content/CalTechnology",
       "RelativePath": "img/11.jpg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\img\\11.jpg"
     },
     {
-      "Identity": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\img\\22.jpg",
+      "Identity": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\img\\22.jpg",
       "SourceId": "CalTechnology",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\",
       "BasePath": "_content/CalTechnology",
       "RelativePath": "img/22.jpg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\img\\22.jpg"
     },
     {
-      "Identity": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\img\\33.jpg",
+      "Identity": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\img\\33.jpg",
       "SourceId": "CalTechnology",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\",
       "BasePath": "_content/CalTechnology",
       "RelativePath": "img/33.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\img\\33.jpg"
     },
     {
-      "Identity": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\img\\44.jpg",
+      "Identity": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\img\\44.jpg",
       "SourceId": "CalTechnology",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\",
       "BasePath": "_content/CalTechnology",
       "RelativePath": "img/44.jpg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\img\\44.jpg"
     },
     {
-      "Identity": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\img\\55.jpg",
+      "Identity": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\img\\55.jpg",
       "SourceId": "CalTechnology",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\",
       "BasePath": "_content/CalTechnology",
       "RelativePath": "img/55.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\img\\55.jpg"
     },
     {
-      "Identity": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "CalTechnology",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maksk\\RiderProjects\\CAL\\wwwroot\\",
       "BasePath": "_content/CalTechnology",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",

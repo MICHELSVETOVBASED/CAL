@@ -8623,11 +8623,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\CalTechnology.csproj",
+      "projectUniqueName": "C:\\Users\\maksk\\RiderProjects\\CAL\\CalTechnology.csproj",
       "projectName": "CalTechnology",
-      "projectPath": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\CalTechnology.csproj",
+      "projectPath": "C:\\Users\\maksk\\RiderProjects\\CAL\\CalTechnology.csproj",
       "packagesPath": "C:\\Users\\maksk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maksk\\RiderProjects\\CalTechnology\\CalTechnology\\obj\\",
+      "outputPath": "C:\\Users\\maksk\\RiderProjects\\CAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maksk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8729,7 +8729,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

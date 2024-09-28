@@ -2,6 +2,7 @@ using CalTechnology.Data.Interfaces;
 using CalTechnology.Data.Models;
 using CalTechnology.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+
 namespace CalTechnology.Controllers;
 
 public class HomeController:Controller{
@@ -16,6 +17,6 @@ public class HomeController:Controller{
         var homeCars = new HomeViewModel{
             favCars = _carRep.getFavCars
         };
-        return View();
+        return View(homeCars);
     }
 }
