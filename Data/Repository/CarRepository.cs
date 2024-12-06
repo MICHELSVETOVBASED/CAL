@@ -19,5 +19,5 @@ public class CarRepository:IAllCars{
     public IEnumerable<Car> getFavCars => appDBContent.Car.Where(p => p.isFavourite)
         .Include(c => c.Category);
 
-    public Car getObjectCar(int carId) => appDBContent.Car.FirstOrDefault(p => p.id == carId);
+    public Car getObjectCar(int carId) => appDBContent.Car.FirstOrDefault(p => p.id == carId);// ddd
 }
