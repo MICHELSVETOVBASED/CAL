@@ -72,4 +72,7 @@ public class MockCars : IAllCars{
     public Car getObjectCar(int carId){
         throw new NotImplementedException();
     }
-}
+    public Car getObjectCar1(int carId){
+        throw new NotImplementedException();
+    }
+}//new gray
