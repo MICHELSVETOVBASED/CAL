@@ -1,6 +1,7 @@
 using CalTechnology.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using CalTechnology.Data.Interfaces;
+using CalTechnology.Data.Models;
 
 
 namespace CalTechnology.Controllers;
@@ -14,11 +15,33 @@ public class CarsController:Controller{
         _allCategories = iCarsCat;
     }
     
-    public ViewResult List(){
+    [Route("Cars/List")]
+    [Route("Cars/List/{category}")]
+    public ViewResult List(string category){
+        string _category = category;
+        IEnumerable<Car> cars = null;
+        string currCategory = "";
+        if (string.IsNullOrEmpty(category)){
+            cars = _allCars.Cars.OrderBy(i => i.id);
+        }
+        else{
+            if (string.Equals("Electric", category, StringComparison.OrdinalIgnoreCase)){
+                cars = _allCars.Cars.Where(i => i.Category.categoryName.Equals("Electric")).OrderBy(i => i.id);
+            }
+            else if (string.Equals("Classical autos", category, StringComparison.OrdinalIgnoreCase))
+            {
+                cars = _allCars.Cars.Where(i => i.Category.categoryName.Equals("Classical")).OrderBy(i => i.id);
+            }
+
+            currCategory = _category;
+            
+        }
+        var carObj = new CarsListViewModel{
+            allCars = cars,
+            carCategory = currCategory
+        };
+        
         ViewBag.Title = "Page with autas";
-        CarsListViewModel obj = new CarsListViewModel();
-        obj.allCars = _allCars.Cars;
-        obj.carCategory = "Automobiles";
-        return View(obj);
+        return View(carObj);
     }
 }
