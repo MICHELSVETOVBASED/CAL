@@ -21,21 +21,24 @@ public class CarsController:Controller{
         string _category = category;
         IEnumerable<Car> cars = null;
         string currCategory = "";
+        
         if (string.IsNullOrEmpty(category)){
             cars = _allCars.Cars.OrderBy(i => i.id);
         }
         else{
-            if (string.Equals("Electric", category, StringComparison.OrdinalIgnoreCase)){
+            if (string.Equals("Electric", category, StringComparison.OrdinalIgnoreCase) || 
+                string.Equals("Electromobiles", category, StringComparison.OrdinalIgnoreCase) ||
+                string.Equals("Electro", category, StringComparison.OrdinalIgnoreCase)){
                 cars = _allCars.Cars.Where(i => i.Category.categoryName.Equals("Electric")).OrderBy(i => i.id);
             }
-            else if (string.Equals("Classical autos", category, StringComparison.OrdinalIgnoreCase))
+            else if (string.Equals("Classical", category, StringComparison.OrdinalIgnoreCase))
             {
                 cars = _allCars.Cars.Where(i => i.Category.categoryName.Equals("Classical")).OrderBy(i => i.id);
             }
 
             currCategory = _category;
-            
         }
+        
         var carObj = new CarsListViewModel{
             allCars = cars,
             carCategory = currCategory

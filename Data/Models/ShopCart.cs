@@ -36,4 +36,10 @@ public class ShopCart{
             .Include(s => s.carItem)
             .ToList();
     }
+
+    public void ClearCart(){
+        var cartItems = appDBContent.ShopCartItem.Where(c => c.ShopCartId == ShopCartId);
+        appDBContent.ShopCartItem.RemoveRange(cartItems);
+        appDBContent.SaveChanges();
+    }
 }
