@@ -25,7 +25,7 @@ public class ShopCart{
     public void AddToCart(Car car){
         appDBContent.ShopCartItem.Add(new ShopCartItem{
             ShopCartId = ShopCartId,
-            car = car,
+            carItem = car,
             price = car.price
         });
         appDBContent.SaveChanges();
@@ -33,7 +33,7 @@ public class ShopCart{
 
     public List<ShopCartItem> getShopItems(){
         return appDBContent.ShopCartItem.Where(c => c.ShopCartId == ShopCartId)
-            .Include(s => s.car)
+            .Include(s => s.carItem)
             .ToList();
     }
 }

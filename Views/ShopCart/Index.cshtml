@@ -2,8 +2,8 @@
 <div class="container">
     @foreach (var el in Model.shopCart.listShopItems){
         <div class="alert alert-warning mt-3">
-            <b>Автомобиль:</b>@el.car.name<br/>
-            <b>Цена:</b>@el.car.price.ToString("c")
+            <b>Автомобиль:</b>@el.carItem.name<br/>
+            <b>Цена:</b>@el.carItem.price.ToString("c")
         </div>
     }
     <hr />

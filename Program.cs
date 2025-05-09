@@ -47,24 +47,28 @@ app.UseStaticFiles();
 app.UseSession();
 app.UseRouting();
 app.UseCors();
-app.UseMvcWithDefaultRoute();
-
+//app.UseMvcWithDefaultRoute();//на главную страницу хоум индекс
+ 
 using (var scope = app.Services.CreateScope()){
     AppDBContent content = scope.ServiceProvider.GetRequiredService<AppDBContent>();
     DBObjects.Initial(content);
 }
 
 
-app.MapControllerRoute(
+/*app.MapControllerRoute(
     name: "Cars",
     pattern: "cars/{action=Index}/{id?}",
     defaults: new { controller = "Cars" });
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");*/
 
-        
 
+app.UseMvc(routes => {
+    routes.MapRoute(name: "default", template: "{controller=Home}/{action=Index}/{id?}");
+    routes.MapRoute(name: "categoryFilter", template: "{Car}/action/{category?}",
+        defaults: new{ Controller = "Car", action = "List" });
+});
 
 if (app.Environment.IsDevelopment()){
     app.MapGet("/", () => "Development(production)");

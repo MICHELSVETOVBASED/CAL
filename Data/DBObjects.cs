@@ -7,10 +7,12 @@ namespace CalTechnology.Data;
 
 public class DBObjects{
     public static void Initial(AppDBContent content){
-        if (!content.Category.Any())
-             content.Category.AddRange(Categories.Select(c => c.Value));
+        if (!content.Category.Any()){
+            content.Category.AddRange(Categories.Select(c => c.Value));
+            content.SaveChanges();
+        }
         if (!content.Car.Any()){
-            content.AddRange(
+            content.Car.AddRange(
                 new Car{
                     name = "Tesla Model S",
                     shortDesc = "Fast prodigy auto",
@@ -19,7 +21,7 @@ public class DBObjects{
                     price = 45000,
                     isFavourite = true,
                     available = true,
-                    Category = Categories["Electric cars"]
+                    Category = Categories["Electric"]
                 },
                 new Car{
                     name = "Mustang Mach-E",
@@ -29,7 +31,7 @@ public class DBObjects{
                     img = "/img/22.jpg",
                     isFavourite = false,
                     available = true,
-                    Category = Categories["Electric cars"]
+                    Category = Categories["Electric"]
                 },
                 new Car{
                     name = "BMW M4",
@@ -39,7 +41,7 @@ public class DBObjects{
                     price = 65535,
                     isFavourite = true,
                     available = true,
-                    Category = Categories["Classical autos"]
+                    Category = Categories["Classical"]
                 },
                 new Car{
                     name = "Mercedes C Class",
@@ -49,7 +51,7 @@ public class DBObjects{
                     price = 50000,
                     isFavourite = false,
                     available = false,
-                    Category = Categories["Classical autos"]
+                    Category = Categories["Classical"]
                 },
                 new Car{
                     name = "Nissan Gt R",
@@ -60,7 +62,7 @@ public class DBObjects{
                     price = 55000,
                     isFavourite = true,
                     available = true,
-                    Category = Categories["Electric cars"]
+                    Category = Categories["Electric"]
                 });
         }
 
@@ -72,8 +74,8 @@ public class DBObjects{
         get{
             if (category == null){
                 var list = new Category[]{
-                    new Category{ categoryName = "Electric cars", desc = "Modern type of transport" },
-                    new Category{ categoryName = "Classical autos", desc = "Cars with interal combustion engine" }
+                    new Category{ categoryName = "Electric", desc = "Modern type of transport" },
+                    new Category{ categoryName = "Classical", desc = "Cars with interal combustion engine" }
                 };
                 category = new Dictionary<string, Category>();
                 foreach (Category el in list)
