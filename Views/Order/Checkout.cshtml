@@ -3,6 +3,8 @@
 <div class="row">
     <h3>Оформление заказа</h3>
     <form asp-action="Checkout" method="post" class="form-horizontal">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        
         <div class="form-group">
             <label asp-for="name"></label>
             <div class="col-md-5">
@@ -38,7 +40,10 @@
                 <span asp-validation-for="email" class="text-danger"></span>
             </div>
         </div>
-        <input class="btn btn-success" type="submit" valut="Complete order"/>
-
+        <input class="btn btn-success" type="submit" value="Complete order"/> 
     </form>
 </div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,4 +1,3 @@
-
 using CalTechnology.Data.Interfaces;
 using CalTechnology.Data.Models;
 
@@ -16,7 +15,10 @@ public class OrdersRepository : IAllOrders
     
     public void createOrder(Order order){
         order.orderTime = DateTime.Now;
+        
+        // Сначала сохраняем заказ, чтобы получить ID
         appDBContent.Order.Add(order);
+        appDBContent.SaveChanges();
 
         var items = shopCart.listShopItems;
 
@@ -26,9 +28,12 @@ public class OrdersRepository : IAllOrders
                 orderID = order.Id,
                 price = el.carItem.price
             };
+            order.orderDetails.Add(orderDetail);
             appDBContent.OrderDetail.Add(orderDetail);
         }
 
+        // Сохраняем детали заказа
         appDBContent.SaveChanges();
+        shopCart.ClearCart();
     }
 }

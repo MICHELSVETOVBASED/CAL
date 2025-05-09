@@ -1,4 +1,3 @@
-
 using CalTechnology.Data.Models;
 using Microsoft.AspNetCore.Mvc;
 using CalTechnology.ViewModels;
@@ -26,12 +25,17 @@ public class ShopCartController:Controller{
         return View(obj);
     }
 
-    public RedirectToActionResult addToCart(int id){
-        var item = _carRep.Cars.FirstOrDefault(i => i.id == id);
+    public RedirectToActionResult addToCart(int carId){
+        var item = _carRep.Cars.FirstOrDefault(i => i.id == carId);
         if (item != null){
             _shopCart.AddToCart(item);
         }
 
         return RedirectToAction("Index");
+    }
+
+    public IActionResult Complete(){
+        ViewBag.Message = "Order succesfully processed";
+        return View();
     }
 }
