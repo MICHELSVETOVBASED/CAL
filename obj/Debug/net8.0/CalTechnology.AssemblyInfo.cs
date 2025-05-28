@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalTechnology")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f07bdb49f3c6f3a2ffa546771bc422dfb81fd22e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d5b1fedef5dcf550c629e0e35457fb5e2ed32fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalTechnology")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalTechnology")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
