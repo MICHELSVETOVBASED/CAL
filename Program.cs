@@ -35,7 +35,7 @@ app.UseStatusCodePages();
 app.UseStaticFiles();
 app.UseSession();
 app.UseRouting();
-app.UseCors();
+app.UseCors();//
 
 using (var scope = app.Services.CreateScope()){
     AppDBContent content = scope.ServiceProvider.GetRequiredService<AppDBContent>();
