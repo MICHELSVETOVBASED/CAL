@@ -39,6 +39,7 @@ app.UseCors();////
 
 using (var scope = app.Services.CreateScope()){
     AppDBContent content = scope.ServiceProvider.GetRequiredService<AppDBContent>();
+    content.Database.EnsureCreated();
     DBObjects.Initial(content);
 }
 
